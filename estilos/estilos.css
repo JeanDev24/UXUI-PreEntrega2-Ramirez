@@ -1,237 +1,108 @@
-.navbar{
-    background-color: #F97316;
-} 
-
-.logo{
-    float: left;
-    color: #fff;
-    }
-
-.barra{
-    float: right;
-}
-    
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-}
-    
-.barra a{
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px;
-    color: #fff;
-}
-    
-.barra a:hover{
-    color: #333;
-    }
-    
-.sec1{
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    align-content: space-evenly;
+@charset "UTF-8";
+html {
+height: 100%;
 }
 
-.caja1{
-    height: 400px;
-    width: 300px;
-    margin-top: 40px;
-    background-image: url(multimedia/Cinnamon1.jpeg);
-    background-size: cover;
-    color: #fff;
-    border: 3px solid #fff;
-    text-align: center;
-    font-size: 22px;
-    text-transform: uppercase;
-    line-height: 120px;
+body {
+display: flex;
+flex-direction: column;
+min-height: 100%;
 }
 
-.caja2{
-    height: 400px;
-    width: 300px;
-    margin-top: 40px;
-    background-image: url(multimedia/Cinnamon2.jpeg);
-    background-size: cover;
-    color: #fff;
-    border: 3px solid #fff;
-    text-align: center;
-    font-size: 22px;
-    text-transform: uppercase;
-    line-height: 120px;
+header {
+background-color: #EB7926;
+}
+header .navbar {
+background-color: #EB7926;
+margin-bottom: 20px;
 }
 
-.caja3{
-    height: 400px;
-    width: 300px;
-    margin-top: 40px;
-    background-image: url(multimedia/Cinnamon2.jpeg);
-    background-size: cover;
-    color: #fff;
-    border: 3px solid #fff;
-    text-align: center;
-    font-size: 22px;
-    text-transform: uppercase;
-    line-height: 120px;
+.navbar-toggler-icon-bg {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'");
 }
 
-.cina{
-    font-size: 22px;
-    color: #333333;
-    padding: 10px;
-    margin-bottom: 40px;
+header .navbar .navbar-brand {
+color: #ffffff;
+}
+header .navbar .offcanvas {
+background-color: #EB7926;
+color: #ffffff;
+}
+header .navbar .offcanvas-body {
+color: #ffffff;
+}
+header .navbar .offcanvas-body .nav-link {
+color: #ffffff;
 }
 
-.cinaeventos{
-    font-size: 22px;
-    color: #333333;
-    padding: 10px;
-    margin-bottom: 100px;
-    text-align: center;
+.titulo{
+padding-top: 5%;
+padding-left: 3%;
+padding-bottom: 1%;
+color: #EB7926;
+}
+.container {
+text-align: justify;
+padding-bottom: 5%;
+}
+.container h1, .container .h1 {
+color: #EB7926;
 }
 
-.imgcina1{
-    height: 300px;
-    width: 200px;
-    margin-top: 40px;
-    margin-left: 40px;
-    background-image: url(multimedia/Cinnamon2.jpeg);
-    background-size: 100%;
-    color: #fff;
-    border-radius: 32px;
+section .titulo {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: left;
 }
 
-.imgcina2{
-    height: 300px;
-    width: 200px;
-    margin-top: 40px;
-    margin-left: 40px;
-    background-image: url(multimedia/Cinnamon11.jpeg);
-    background-size: 100%;
-    color: #fff;
-    border-radius: 32px;
+.module {
+display: flex;
+padding-bottom: 3%;
+align-items: center;
+justify-content: space-between;
+}
+.module .image-column {
+flex: 1;
+padding-left: 5%;
+}
+.module .image-column img {
+max-width: 40%;
+height: auto;
+border-radius: 25px;
+}
+.module .text-column {
+flex: 2;
+padding-left: 20px;
+}
+.module .text-column p {
+font-size: 16px;
+line-height: 1.5;
 }
 
-.imgcina3{
-    height: 300px;
-    width: 200px;
-    margin-top: 40px;
-    margin-left: 40px;
-    background-image: url(multimedia/Cinnamon21.jpeg);
-    background-size: 100%;
-    color: #fff;
-    border-radius: 32px;
+.image-row{
+flex: 1;
+padding-bottom: 5%;
 }
 
-.imgcina4{
-    height: 300px;
-    width: 200px;
-    margin-top: 40px;
-    margin-left: 40px;
-    background-image: url(multimedia/Cinnamon5.jpeg);
-    background-size: 100%;
-    color: #fff;
-    border-radius: 32px;
+.footer {
+background-color: #f0f0f0;
+margin-top: auto;
+padding: 20px;
+text-align: center;
+font-size: 14px;
+color: #333;
 }
-
-.imgcina5{
-    height: 400px;
-    width: 400px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 25px;
-    background-image: url(multimedia/Cinnamon24.jpeg);
-    background-size: 100%;
-    color: #fff;
-    border-radius: 32px;
+.footer .footer-content {
+display: flex;
+justify-content: center;
+align-items: center;
 }
-
-.imgcina6{
-    height: 400px;
-    width: 400px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 25px;
-    background-image: url(multimedia/Cinnamon16.jpeg);
-    background-size: 100%;
-    color: #fff;
-    border-radius: 32px;
+.footer .footer-content .social-icons {
+margin-right: 20px;
 }
-
-.rollsclub{
-    height: 400px;
-    width: 400px;
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-bottom: 25px;
-    background-image: url(multimedia/Cinnamon11.jpeg);
-    background-size: 100%;
-    color: #fff;
-    border-radius: 300px;
+.footer .footer-content .social-icons img {
+width: 24px;
+height: 24px;
+margin-right: 10px;
 }
-
-#nosotros{
-    height: 700px;
-    width: 100%;
-}
-
-#titulo2{
-    color: #F97316;
-    font-size: 50px;
-    margin-bottom: 40px;
-    text-align: center;
-    padding-top: 40px;
-}
-
-.sec2{
-    display: flex;
-    height: 100%;
-    font-size: 25px;
-    padding: 80px;
-    text-align: center;
-    color: #333333;
-}
-
-.formulario ul li{
-    color: #333333;
-    font-size: 40px;
-    padding: 20px;
-    text-decoration: none;
-    list-style: none;
-}
-.container-fluid{
-    display: flex;
-}
-
-.form-floating{
-    width: 500px;
-}
-
-.redes a{
-    text-decoration: none;
-    color: #F97316;
-    font-size: 50px;
-    letter-spacing: 15px;
-}
-
-
-
-footer p{
-    margin-bottom: 0px;
-    display: block;
-}
-
-footer{
-    color: #333333;
-    text-align: center;
-    padding: 0;
-    font-size: 16px;
-    bottom: 0;
-    margin-top:100px;
-    width:100%;
-    height:50px;
-    }

@@ -3,70 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- BS 5.1 inicia -->
+    <!-- BS 5.1 inicia
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- BS 5.1 finaliza -->
+    BS 5.1 finaliza -->
+    <!-- inicia BS 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- finaliza BS 5.3 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../estilos/estilos.css">
     <title>Cinnamons</title>
 </head>
 <body>
-    <header>
-         <!-- Inicio navbar -->
-         <nav class="navbar navbar-expand-sm navbar-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">CRLove</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="d-flex justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./eventos.html">Eventos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./rollsclub.html">Rolls Club</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                  </li>
+  <header>
+    <!-- Inicio navbar -->
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Canela Twist</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú Canela Twist</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./canelaclub.html">Canela Club</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
                 </ul>
-              </div>
-            </div>
-          </nav>
-        <div class="logo">LOGO</div>
-      <!-- Fin navbar -->
-    </header>
-    <body>
-        <h1 id="titulo2">Productos</h1>
-        <section class="menu">
-            <div class="imgcina1"></div>
-            <div class="cina">Cinnamon tradicional en formato individual</div>
-            <div class="imgcina2"></div>
-            <div class="cina">Cinnamons tradicional con topping de crumble enpresentaciones de 4, 8 y 12</div>
-            <div class="imgcina3"></div>
-            <div class="cina">Cinnamos rellenos de chocolate oscuro con topping de chocolate blanco y chocolate de leche</div>
-            <div class="imgcina4"></div>
-            <div class="cina">Cinnamons rellenos de chocolate blanco y queso crema</div>
-        </section>
-    </body>
-    <footer>
-        <p>Todos lo derechos son reservados por copyright</p>
-        <div class="redes">
-            <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <a href="">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </footer>
+      </div>
+    </nav>
+    <!-- fin navbar -->
+  </header>
+      <div class="titulo"><h1>Productos</h1></div>
+        <div class="container">
+          <p>¡Bienvenido a nuestra sección de productos de rollos de canela! Aquí en nuestra tienda en línea, te ofrecemos una amplia variedad de deliciosos rollos de canela, perfectos para satisfacer tus antojos dulces en cualquier momento del día. Nuestros productos están hechos con los ingredientes más frescos y de la más alta calidad, garantizando un sabor excepcional en cada bocado.</p>
+          <p>Desde los clásicos rollos de canela con glaseado de crema de queso hasta opciones más creativas como rollos de canela con chispas de chocolate o con nueces caramelizadas, tenemos algo para todos los amantes de los postres. Además, ofrecemos opciones veganas y sin gluten para que nadie se quede sin disfrutar de esta delicia horneada.</p>
+          <p>Nuestros rollos de canela son ideales para disfrutar en el desayuno junto con una taza de café caliente, como un postre indulgente después del almuerzo o simplemente como un capricho dulce en cualquier momento del día. Además, son perfectos para compartir con amigos y familiares en ocasiones especiales o para sorprender a alguien con un regalo delicioso y reconfortante.</p>
+          <p>Explora nuestra selección de productos a continuación y descubre por qué nuestros rollos de canela son los favoritos de tantos clientes satisfechos. ¡Haz tu pedido hoy y déjate llevar por el irresistible aroma y sabor de nuestros deliciosos rollos de canela!</p>
+        </div>
+        <div class="module">
+            <div class="image-column">
+                <img src="../multimedia/Card1.jpg" alt="Cinnamons">
+                </div>
+                <div class="text-column">
+                <p>Cinnamon tradicional en formato individual</p>
+            </div>
+        </div>
+        <div class="module">
+            <div class="image-column">
+                <img src="../multimedia/Card2.jpg" alt="Cinnamons">
+                </div>
+                <div class="text-column">
+                <p>Cinnamons tradicional con topping de crumble enpresentaciones de 4, 8 y 12</p>
+            </div>
+        </div>
+        <div class="module">
+            <div class="image-column">
+                <img src="../multimedia/Card3.jpg" alt="Cinnamons">
+                </div>
+                <div class="text-column">
+                <p>Cinnamos rellenos de chocolate oscuro con topping de chocolate blanco y chocolate de leche</p>
+            </div>
+        </div>
+        <div class="module">
+            <div class="image-column">
+                <img src="../multimedia/Card4.jpg" alt="Cinnamons">
+                </div>
+                <div class="text-column">
+                <p>Cinnamons rellenos de chocolate blanco y queso crema</p>
+            </div>
+        </div>
+        <footer class="footer">
+          <div class="footer-content">
+              <div class="social-icons">
+                  <a href="#" target="_blank">
+                      <img src="../multimedia/square-instagram.svg" alt="Instagram">
+                  </a>
+                  <a href="#" target="_blank">
+                      <img src="../multimedia/square-facebook.svg" alt="Facebook">
+                  </a>
+              </div>
+              <p><strong>Todos lo derechos son reservados por copyright</strong></p>
+          </div>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>

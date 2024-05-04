@@ -3,65 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- BS 5.1 inicia -->
+    <!-- BS 5.1 inicia
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- BS 5.1 finaliza -->
+    BS 5.1 finaliza -->
+    <!-- inicia BS 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- finaliza BS 5.3 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../estilos/estilos.css">
     <title>Cinnamons</title>
 </head>
 <body>
-    <header>
-        <!-- Inicio navbar -->
-        <nav class="navbar navbar-expand-sm navbar-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">CRLove</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="d-flex justify-content-end collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./productos.html">Productos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./eventos.html">Eventos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Rolls Club</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./contacto.html">Contacto</a>
-                  </li>
+  <header>
+    <!-- Inicio navbar -->
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Canela Twist</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú Canela Twist</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Canela Club</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
                 </ul>
-              </div>
-            </div>
-          </nav>
-        <div class="logo">LOGO</div>
-      <!-- Fin navbar -->
-    </header>
-    <body>
-        <h1 id="titulo2">Rolls Club</h1>
-        <section class="menu">
-            <div class="rollsclub"></div>
-            <div class="cinaeventos">Club Cinnamons Lovers, te recompensa por elegirnos, tendrás regalo el día de tu cumpleaños, podrás realizar celebraciones en nuestras instalaciones, serán los primeros en conocer nuestras promociones, y te avisaremos cuando estemos creando nuevos sabores para que los vengas a probar y nos des tus opiniones, esto y mucho más es nuestro club, tu club de Cinnamons Lovers.</div>
-            
-        </section>
-    </body>
-    <footer>
-        <p>Todos lo derechos son reservados por copyright</p>
-        <div class="redes">
-            <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <a href="">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </footer>
+      </div>
+    </nav>
+    <!-- fin navbar -->
+  </header>
+        <h1 class="titulo">Rolls Club</h1>
+        <section>
+            <div class="image-row">
+              <img src="../multimedia/club.png" class="rounded mx-auto d-block" alt="Cinnamons">
+            </div>
+            <div class="container">
+              <p>¡Bienvenido al Club de Cinnamons Rolls de Canela Twist, donde la dulzura se une a la membresía! Únete a nosotros y sé parte de una comunidad dedicada a disfrutar de los mejores sabores de la vida, envueltos en suaves espirales de canela y glaseado delicioso.</p>
+              <p>¿Por qué unirte al Club de Cinnamons Rolls de Canela Twist? ¡Porque te ofrecemos mucho más que solo postres deliciosos! Como miembro, recibirás beneficios exclusivos, incluyendo descuentos especiales en ocasiones como tu cumpleaños y eventos destacados. Queremos celebrar contigo esos momentos especiales, endulzando aún más tus días más memorables.</p>
+              <p>Pero eso no es todo. También recibirás acceso anticipado a nuestras nuevas creaciones, promociones especiales y eventos de degustación solo para miembros. Queremos que seas parte de nuestro proceso creativo, probando nuestras nuevas recetas antes que nadie y compartiendo tus opiniones para ayudarnos a perfeccionar cada bocado.</p>
+              <p>Además, como miembro del Club de Cinnamons Rolls, recibirás invitaciones exclusivas a eventos especiales, como noches de cine temáticas, degustaciones de temporada y mucho más. Es nuestra manera de agradecer tu lealtad y compartir momentos especiales contigo, nuestra valiosa familia de amantes de los Cinnamons Rolls.</p>
+              <p>¿Estás listo para unirte a la dulce revolución? ¡Es fácil! Simplemente visita una de nuestras tiendas Canela Twist y pregunta a nuestros amables empleados cómo puedes unirte al Club de Cinnamons Rolls. Con tu membresía, cada mordisco será aún más especial, y cada ocasión será una oportunidad para disfrutar de la dulzura de Canela Twist en compañía de amigos y familiares. ¡Te esperamos con los brazos (y los rollos de canela) abiertos!</p>
+            </div>
+        </section>
+        <footer class="footer">
+          <div class="footer-content">
+              <div class="social-icons">
+                <a href="#" target="_blank">
+                  <img src="../multimedia/square-instagram.svg" alt="Instagram">
+              </a>
+              <a href="#" target="_blank">
+                  <img src="../multimedia/square-facebook.svg" alt="Facebook">
+              </a>
+              </div>
+              <p><strong>Todos lo derechos son reservados por copyright</strong></p>
+          </div>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
