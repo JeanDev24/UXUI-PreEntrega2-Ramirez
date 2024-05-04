@@ -1,0 +1,237 @@
+.navbar{
+    background-color: #F97316;
+} 
+
+.logo{
+    float: left;
+    color: #fff;
+    }
+
+.barra{
+    float: right;
+}
+    
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+}
+    
+.barra a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #fff;
+}
+    
+.barra a:hover{
+    color: #333;
+    }
+    
+.sec1{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.caja1{
+    height: 400px;
+    width: 300px;
+    margin-top: 40px;
+    background-image: url(multimedia/Cinnamon1.jpeg);
+    background-size: cover;
+    color: #fff;
+    border: 3px solid #fff;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 120px;
+}
+
+.caja2{
+    height: 400px;
+    width: 300px;
+    margin-top: 40px;
+    background-image: url(multimedia/Cinnamon2.jpeg);
+    background-size: cover;
+    color: #fff;
+    border: 3px solid #fff;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 120px;
+}
+
+.caja3{
+    height: 400px;
+    width: 300px;
+    margin-top: 40px;
+    background-image: url(multimedia/Cinnamon2.jpeg);
+    background-size: cover;
+    color: #fff;
+    border: 3px solid #fff;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 120px;
+}
+
+.cina{
+    font-size: 22px;
+    color: #333333;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.cinaeventos{
+    font-size: 22px;
+    color: #333333;
+    padding: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.imgcina1{
+    height: 300px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(multimedia/Cinnamon2.jpeg);
+    background-size: 100%;
+    color: #fff;
+    border-radius: 32px;
+}
+
+.imgcina2{
+    height: 300px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(multimedia/Cinnamon11.jpeg);
+    background-size: 100%;
+    color: #fff;
+    border-radius: 32px;
+}
+
+.imgcina3{
+    height: 300px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(multimedia/Cinnamon21.jpeg);
+    background-size: 100%;
+    color: #fff;
+    border-radius: 32px;
+}
+
+.imgcina4{
+    height: 300px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    background-image: url(multimedia/Cinnamon5.jpeg);
+    background-size: 100%;
+    color: #fff;
+    border-radius: 32px;
+}
+
+.imgcina5{
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    background-image: url(multimedia/Cinnamon24.jpeg);
+    background-size: 100%;
+    color: #fff;
+    border-radius: 32px;
+}
+
+.imgcina6{
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    background-image: url(multimedia/Cinnamon16.jpeg);
+    background-size: 100%;
+    color: #fff;
+    border-radius: 32px;
+}
+
+.rollsclub{
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    background-image: url(multimedia/Cinnamon11.jpeg);
+    background-size: 100%;
+    color: #fff;
+    border-radius: 300px;
+}
+
+#nosotros{
+    height: 700px;
+    width: 100%;
+}
+
+#titulo2{
+    color: #F97316;
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.sec2{
+    display: flex;
+    height: 100%;
+    font-size: 25px;
+    padding: 80px;
+    text-align: center;
+    color: #333333;
+}
+
+.formulario ul li{
+    color: #333333;
+    font-size: 40px;
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.container-fluid{
+    display: flex;
+}
+
+.form-floating{
+    width: 500px;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #F97316;
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+
+
+footer p{
+    margin-bottom: 0px;
+    display: block;
+}
+
+footer{
+    color: #333333;
+    text-align: center;
+    padding: 0;
+    font-size: 16px;
+    bottom: 0;
+    margin-top:100px;
+    width:100%;
+    height:50px;
+    }
